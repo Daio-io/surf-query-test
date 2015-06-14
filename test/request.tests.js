@@ -13,11 +13,11 @@ describe('Making Requests', function() {
 
             for (var i = 0; i < data.length; i++){
 
-                // Spot Id
+                // Spot
                 expect(data[i].spot_id).to.exist;
+                expect(data[i].spot_name).to.exist;
 
                 // Location
-                expect(data[i].location.spot_name).to.exist;
                 expect(data[i].location.country).to.exist;
                 expect(data[i].location.region).to.exist;
 
