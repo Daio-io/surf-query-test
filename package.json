@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "koa": "^0.21.0",
-    "koa-router": "^5.1.2"
+    "koa-router": "^5.1.2",
+    "mongoose": "^4.0.5"
   },
   "devDependencies": {
     "chai": "^3.0.0",
