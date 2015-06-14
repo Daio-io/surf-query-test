@@ -3,7 +3,7 @@
 module.exports = {
 
     dev: {
-        connectionString: 'mongodb://localhost/surfify',
+        connectionString: 'mongodb://localhost/surf-query',
 
         options: {
             server: {
