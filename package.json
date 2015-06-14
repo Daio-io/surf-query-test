@@ -8,6 +8,10 @@
   },
   "author": "daio.io",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Daveloper87/surf-query-test.git"
+  },
   "dependencies": {
     "koa": "^0.21.0",
     "koa-router": "^5.1.2",
