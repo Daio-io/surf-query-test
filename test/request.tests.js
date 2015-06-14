@@ -13,11 +13,17 @@ describe('Making Requests', function() {
 
             for (var i = 0; i < data.length; i++){
 
-                expect(data[i].location).to.exist;
+                // Spot Id
                 expect(data[i].spot_id).to.exist;
+
+                // Location
+                expect(data[i].location.spot_name).to.exist;
+                expect(data[i].location.country).to.exist;
+                expect(data[i].location.region).to.exist;
+
+                // Geo
                 expect(data[i].geo.latitude).to.exist;
                 expect(data[i].geo.longitude).to.exist;
-                expect(data[i].region).to.exist;
 
             }
 
